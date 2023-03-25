@@ -18,7 +18,7 @@ Integration
 pip install -r requirements.txt
 ```
 
-* Once all the requirement libraries are installed, create a file called `apikey.py`
+* Once all the requirement libraries are installed, create a file called `apikey.py` in `AAVE-ChatBot/chat/apikey.py`
 
 * Declare a varibale named `openai_api_key` with API key value.
 ```sh
