@@ -12,6 +12,16 @@ Before getting started with the project, you will need to have an OpenAI API key
 
 Integration
 -----------
+Clone the repo
+```sh
+git clone https://github.com/linusaltacc/AAVE-ChatBot.git
+```
+
+Go to the Folder
+
+```sh
+cd AAVE-ChatBot
+```
 
 * Install the requirements by:
 ```sh
@@ -19,10 +29,15 @@ pip install -r requirements.txt
 ```
 
 * Once all the requirement libraries are installed, create a file called `apikey.py` in `AAVE-ChatBot/chat/apikey.py`
-
+```sh
+cd chat/
+```
 * Declare a varibale named `openai_api_key` with API key value.
 ```sh
 echo "openai_api_key = '<Enter your OpenAI Key here>' " > apikey.py
+```
+```sh
+cd ..
 ```
 
 Running the Django Application
